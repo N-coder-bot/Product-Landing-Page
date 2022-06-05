@@ -184,10 +184,29 @@ body {
         flex-direction: column;
         align-items: center;
     }
-}
-
-@media(min-width:375px){
     #form{
-        width:62%;
+        width:71%;
+    }
+    #vid{
+        width:72%;
+    }
+    #video{
+        width:100%;
+    }
+}
+@media(max-width:605px){
+    #form{
+        width: 76%;
+    }
+}
+@media(max-width:993px){
+    #form{
+        width:76%;
+    }
+    #submit{
+        width:30%;
+    }
+    #header-img{
+        display: none;
     }
 }
